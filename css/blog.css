@@ -1,0 +1,144 @@
+/* TODO - anotar formas alternativas de aplicar mudanças de tamanho de acordo com a quebra */
+*{
+    --primary-color: #777777;
+    --title-color: black;
+    font-family: 'Open Sans', sans-serif;
+}
+.page-header{
+    padding: 0.6rem 0;
+    box-shadow: 0px 1px 3px rgb(0 0 0 / 20%);
+}
+
+.container{
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.page-header nav{
+    
+}
+
+.page-header nav a{
+    margin: 0 0.5rem;
+}
+
+/* TODO remover margem extra do último item */
+.page-header nav .brand{
+
+}
+
+.page-header nav .has_child{
+    position: relative;
+}
+
+.page-header nav .has_child .child_nav{
+    display: none;
+}
+
+.brand svg{
+    display: block;
+    height: fit-content;
+    aspect-ratio: 2/1;
+}
+
+.page-header nav .brand svg{
+    width: 138px;
+}
+
+/* TODO transformar essa parte em animação de troca de cor */
+.page-header nav .brand svg { fill: black; }
+
+#article-area{
+    
+}
+
+#article-area a{
+    text-decoration: none;
+}
+
+#article-area article{
+    overflow: hidden;
+    padding: 1.3rem 1rem;
+    color: var(--primary-color);
+}
+
+#article-area article figure{
+    position: relative;
+}
+
+#article-area article img{
+    display: block;
+    max-width: 100%;
+    margin-bottom: 0.2rem;
+}
+
+#article-area article h3{
+    display: none;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+#article-area article span{
+    display: block;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 200;
+    font-style: italic;
+    padding: 0.5rem 0;
+}
+
+#article-area article header{
+    font-weight: bold;
+    
+    padding-bottom: 0.7rem;
+    letter-spacing: 2px;
+    line-height: 1.4rem;
+}
+
+#article-area article .readmore{
+    display: none;
+}
+
+#article-area article header:first-letter{
+    text-transform: uppercase;
+}
+
+footer{
+    background-color: black;
+    color: white;
+    padding: 3rem 0;
+}
+
+footer .footer-box{
+
+}
+
+footer .footer-box section:first-child{
+    
+}
+
+footer .footer-box .nav-container{
+    
+}
+
+footer .footer-box .nav-container nav{
+    
+    padding: 0 1.2rem;
+    max-width: 100px;
+}
+
+footer .footer-box .nav-container nav header{
+    font-weight: bold;
+    margin-bottom: 1.5rem;
+}
+
+footer .footer-box .nav-container nav a{
+    color: white;
+    text-decoration: none;
+    margin: 0.3rem 0;
+}
+
+footer .brand svg { 
+    fill: white;
+    width: 240px;
+}
