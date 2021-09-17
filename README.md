@@ -4,7 +4,7 @@
    </a>
 </p>
 
-# Sobre o Projeto 👨🏻‍💻
+# Sobre o Projeto
 
 <h4>Site da EBAC.com</h4>
 
